@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dollar-calcuator</title>
+    <link rel="stylesheet" href="Dollar-cal.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="heading">Naira Exchange Rate by nairatoday.com</header>
+
+      <div class="second-part">
+        <select name="" id="selectUsd" class="select-usd">
+          <option  value="588">Central Bank Rate</option>
+          <option  value="962">Black Market Rate</option>
+          <option  value="450">FX Rate</option>
+          <option  value="450">Money Gram Rate</option>
+          <option  value="458">Western Union Rate</option>
+        </select>
+      </div>
+
+      <h3 id="h3Tag" class="h3-tag">1 USD($) = #588 (@ Central Bank Rate)</h3>
+
+      <div class="input">
+        <input type="number" class="naira input-field" id="naira" />
+        <label class="currency" for="">NGN(#)</label> <br />
+        <input type="number" class="dollar input-field" id="dollar" />
+        <select name="" id="select-currency" class="select-currency">
+          <option >USD($)</option>
+          <option >GBP</option>
+          <option >EUR</option>
+        </select>
+      </div>
+
+      <p class="para">
+        Check our website <a href="" class="anchor-link">nairatoday.com</a> for
+        more forex related news and information
+      </p>
+      <button class="btn">Add to website</button>
+    </div>
+
+    
+
+    <script src="Dollar-cal.js"></script>
+  </body>
+</html>

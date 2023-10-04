@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 800px;
+  height: auto;
+  background-color: aliceblue;
+  border: 3px solid rgb(233, 230, 230);
+  font-family: cursive;
+  text-align: center;
+}
+
+.heading {
+  background-color: green;
+  color: white;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.select-usd {
+  width: 90%;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 40px 0 5px 0;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid rgb(84, 72, 72);
+  background-color: rgb(255, 251, 251);
+}
+
+.h3-tag {
+  margin: 5px 0 50px 0;
+  color: navy;
+}
+
+.input {
+  text-align: left;
+  margin-left: 45px;
+}
+
+.input-field {
+  width: 60%;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid rgb(178, 175, 175);
+  background-color: rgb(255, 251, 251);
+  margin-top: 10px;
+  text-align: right;
+}
+
+.currency {
+  margin-left: 50px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.select-currency {
+  margin-left: 50px;
+  padding: 13px 45px 13px 12px;
+  border: 2px solid rgb(186, 184, 184);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.para {
+  margin-left: 45px;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.anchor-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: darkcyan;
+}
+
+.btn {
+  padding: 10px 40px;
+  color: white;
+  background-color: navy;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.btn:hover {
+  background-color: rgb(4, 4, 169);
+  transition: 1s;
+}
